@@ -108,6 +108,3 @@ Placing an order writes the order and multiple order items. `@Transactional` mak
 6. Open `http://localhost:8080/fooddeliverymanagementsystem/` if deployed with a context path, or `http://localhost:8080/` when running directly from Spring Boot.
 
 `spring.jpa.hibernate.ddl-auto=update` creates/updates the required tables automatically.
-
-## Note
-The project was updated while keeping the original package structure and simple controller -> service -> repository approach. JSP pages use one shared CSS file so the UI is easier to explain in an interview.
